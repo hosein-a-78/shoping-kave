@@ -1,5 +1,5 @@
-import Header from "./Page/Header";
-import Footer from "./Page/Footer";
+import Header from "./Page/Header/Header";
+import Footer from "./Page/Footer/Footer";
 // import { Routes, Route } from "react-router-dom";
 
 const App = () => {

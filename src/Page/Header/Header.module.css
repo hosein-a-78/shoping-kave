@@ -1,0 +1,175 @@
+.container {
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header */
+/* top header */
+
+/* logo panel */
+.LogoPanel {
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.WebsiteLogo {
+    width: 130px;
+    height: 40px;
+}
+
+hr {
+    margin-right: 30px;
+    height: 20px;
+    width: 1px;
+    color: #919191;
+}
+
+.CaptionLogo {
+    padding-right: 15px;
+    line-height: 1.9;
+}
+
+.CaptionLogoName {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.CaptionLogCaption {
+    font-size: 14px;
+    color: #919191;
+}
+
+/* search box */
+.SearchBox {
+    width: 450px;
+    height: 50px;
+    display: flex;
+}
+
+.SearchBoxIcon {
+    width: 90px;
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    left: 8%;
+    z-index: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #fff;
+}
+
+.IconSearch {
+    font-size: 22px;
+}
+
+.SearchBoxInput {
+    width: 370px;
+    padding: 15px 15px;
+    border-radius: 15px;
+    background-color: var(--bg-input);
+    position: relative;
+    border: 1px solid #dfe1e8;
+    z-index: 1;
+    background: linear-gradient(to right, #faefed, #fff0ec, var(--bg-input), var(--bg-input));
+}
+
+/* login box */
+.Login {
+    width: 153px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Yekan-Bakh-Bold';
+    cursor: pointer;
+}
+
+.LoginIcon {
+    color: #FFFDFD;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.LoginText {
+    color: #FFFDFD;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* cart box */
+.CartBox {
+    width: 140px;
+    height: 40px;
+    padding: 8px 8px;
+    border-radius: 15px;
+    background-color: rgba(235, 237, 240, .66);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    margin-right: 28px;
+}
+
+.CartBoxIcon,
+.CartBoxNum {
+    padding: 6px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.CartBoxIcon {
+    width: 29px;
+    height: 29px;
+    background-color: #49BE78;
+    color: #FFFDFD;
+}
+
+.CartBoxNum {
+    width: 29px;
+    height: 29px;
+    margin-right: 10px;
+    background-color: #fff;
+}
+
+.CartBoxText {
+    font-size: 12px;
+    color: #585656;
+}
+
+/* favorite box */
+.FavoritesBox {
+    width: 43px;
+    height: 41px;
+    display: flex;
+    border-radius: 16px;
+    background-color: #fceaea;
+    font-size: 18px;
+    padding: 9px 9px;
+    cursor: pointer;
+    margin-right: 18px;
+    transition-duration: var(--duration-time);
+}
+
+.IconHeart {
+    width: 23px;
+    height: 23px;
+    color: #f1a790;
+}
+
+.FavoritesBox:hover {
+    background-color: #f7d0d0;
+}
