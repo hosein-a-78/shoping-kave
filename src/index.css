@@ -15,8 +15,7 @@
   --duration-time: 0.5s;
 }
 
-body,
-html {
+body {
   padding: 0 15px;
   scroll-behavior: smooth;
   /* text-align: center; */

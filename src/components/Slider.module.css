@@ -1,0 +1,52 @@
+.slider {
+    position: relative;
+    width: 760px;
+    overflow: hidden;
+    border-radius: 30px;
+    margin-top: 150px;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.controls {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.button {
+    margin: 0px 5px;
+    padding: 4px 8px;
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.BanerKonkor {
+    width: 280px;
+    height: 360px;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-right: 60px;
+}
